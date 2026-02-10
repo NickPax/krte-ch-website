@@ -1,0 +1,174 @@
+{
+  "nest": [
+    {
+      "id": 1770578705731,
+      "text": "How should we be preparing for business launch?",
+      "created": "2026-02-08T19:25:05.731Z",
+      "status": "answered",
+      "answerFile": "nest/2026-02-08-business-launch.md"
+    },
+    {
+      "id": 1770742200001,
+      "text": "Fix Ollama/Llama for heartbeat — Nick to find transcript of someone who got it working EDIT he did and we still hae this persistent issue, let's solve it or take a different approach",
+      "created": "2026-02-10T12:50:00.000Z",
+      "status": "pending"
+    },
+    {
+      "id": 1770742200002,
+      "text": "Investigate cron job failures — 1-hour-before reminder didn't fire, why?",
+      "created": "2026-02-10T12:50:00.000Z",
+      "status": "pending"
+    },
+    {
+      "id": 1770751187924,
+      "text": "famous quote -- this is the slowest its ever gonna be -- A Finn",
+      "created": "2026-02-10T19:19:47.924Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "krtech",
+      "name": "Krte-ch",
+      "color": "#10b981",
+      "emoji": "🐾"
+    },
+    {
+      "id": "fx-europe",
+      "name": "fx europe",
+      "color": "#8b5cf6",
+      "emoji": "💱"
+    },
+    {
+      "id": "stampede",
+      "name": "Stampede PDF",
+      "color": "#ec4899",
+      "emoji": "📄"
+    },
+    {
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "color": "#6366f1",
+      "emoji": "🦉"
+    },
+    {
+      "id": "personal",
+      "name": "Personal",
+      "color": "#f59e0b",
+      "emoji": "🏠"
+    },
+    {
+      "id": "bristol-politics",
+      "name": "Bristol Politics Show",
+      "color": "#ef4444",
+      "emoji": "📻"
+    },
+    {
+      "id": "911-phpbb",
+      "name": "9/11 phpBB board",
+      "color": "#0ea5e9",
+      "emoji": "💬"
+    },
+    {
+      "id": "polish-app",
+      "name": "Polish Learning",
+      "color": "#dc2626",
+      "emoji": "🇵🇱"
+    },
+    {
+      "id": "german-app",
+      "name": "German Learning",
+      "color": "#facc15",
+      "emoji": "🇩🇪"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Patrik: Czech citizenship application",
+      "project": "krtech",
+      "dueDate": null,
+      "status": "in-progress",
+      "notes": "Required for sole proprietorship registration"
+    },
+    {
+      "id": 4,
+      "title": "Apple Developer enrollment",
+      "project": "krtech",
+      "dueDate": null,
+      "status": "in-progress",
+      "notes": "Enrollment ID: 65WB8K8779. Blocked on website."
+    },
+    {
+      "id": 8,
+      "title": "Stampede PDF - iPad app",
+      "project": "stampede",
+      "dueDate": null,
+      "status": "in-progress",
+      "notes": "Primary platform for Stampede PDF"
+    },
+    {
+      "id": 9,
+      "title": "Stampede PDF - macOS build",
+      "project": "stampede",
+      "dueDate": null,
+      "status": "in-progress",
+      "notes": "macOS version in progress"
+    },
+    {
+      "id": 1770481508661,
+      "title": "Text to Stamp",
+      "project": "stampede",
+      "status": "todo",
+      "notes": "Have option to also make a Stamp when creating a Text [could set in a Settings dialog somewhere] or when EDITING an annotation (checkbox)",
+      "dueDate": null
+    },
+    {
+      "id": 1770481606305,
+      "title": "Search result visibilty",
+      "project": "stampede",
+      "status": "todo",
+      "notes": "When stepping through Search results, should scroll to centre of screen, not top as is currently the case.",
+      "dueDate": null
+    },
+    {
+      "id": 1770481792526,
+      "title": "Go to dentist (14:40)",
+      "project": "personal",
+      "dueDate": "2026-02-10",
+      "status": "todo",
+      "notes": "Andersa 15",
+      "remind": true,
+      "reminderBefore": "both-60"
+    },
+    {
+      "id": 1770482220000,
+      "title": "Dentist - B Szustakowska (10:40)",
+      "project": "personal",
+      "dueDate": "2026-02-23",
+      "status": "todo",
+      "notes": "Szernera 3",
+      "remind": true,
+      "isTask": true,
+      "reminderBefore": "both-30"
+    },
+    {
+      "id": 1770561927207,
+      "title": "Numeric KBD",
+      "project": "fx-europe",
+      "status": "todo",
+      "notes": "When returning from background on android we see wrong KBD!!!",
+      "dueDate": null,
+      "remind": false
+    },
+    {
+      "id": 1770562226651,
+      "title": "Add LATEST_EVENTS data",
+      "project": "911-phpbb",
+      "status": "todo",
+      "notes": "Phpbb: yes please create separate LATEST_EVENTS data — ask Claude Code",
+      "dueDate": null,
+      "remind": false
+    }
+  ],
+  "events": []
+}

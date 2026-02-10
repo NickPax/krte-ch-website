@@ -1,0 +1,9 @@
+{
+  "model": "claude-opus-4-5",
+  "contextSize": 83304,
+  "contextWindow": 200000,
+  "cost": {
+    "total": null
+  },
+  "updatedAt": "2026-02-10T07:29:40.946Z"
+}
