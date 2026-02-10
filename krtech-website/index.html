@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krte-ch - Simple & Useful Mobile Apps</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Nunito', sans-serif;
+            background: #fafafa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%);
+        }
+
+        .logo {
+            max-width: 350px;
+            width: 100%;
+            margin-bottom: 1.5rem;
+        }
+
+        .tagline {
+            font-size: 1.4rem;
+            color: #555;
+            max-width: 500px;
+            margin-bottom: 2rem;
+        }
+
+        .store-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .store-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: #1a1a2e;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .store-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .store-btn svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        /* Apps Section */
+        .apps {
+            padding: 4rem 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .apps h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: #1a1a2e;
+        }
+
+        .app-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .app-card {
+            background: white;
+            padding: 1.5rem 2rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            border-left: 4px solid #10b981;
+        }
+
+        .app-card h3 {
+            font-size: 1.3rem;
+            color: #1a1a2e;
+            margin-bottom: 0.5rem;
+        }
+
+        .app-card p {
+            color: #666;
+        }
+
+        /* Support Section */
+        .support {
+            background: #1a1a2e;
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        .support h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .support p {
+            color: #aaa;
+            margin-bottom: 1rem;
+        }
+
+        .support a {
+            color: #10b981;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+
+        .support a:hover {
+            text-decoration: underline;
+        }
+
+        /* Privacy Section */
+        .privacy {
+            padding: 2rem;
+            text-align: center;
+            background: #f0f0f0;
+        }
+
+        .privacy a {
+            color: #1a1a2e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .privacy a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background: #1a1a2e;
+            color: #888;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .hero {
+                min-height: 70vh;
+            }
+            .logo {
+                max-width: 250px;
+            }
+            .tagline {
+                font-size: 1.1rem;
+            }
+            .store-buttons {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="assets/logo.jpg" alt="Krte-ch Logo" class="logo">
+        <p class="tagline">Krte-ch is a small studio creating simple and useful mobile apps.</p>
+    </section>
+
+    <!-- Our Apps -->
+    <section class="apps">
+        <h2>Our Apps</h2>
+        <div class="app-list">
+            <div class="app-card">
+                <h3>💱 fx europe</h3>
+                <p>A simple and fast currency converter for European currencies. Check exchange rates instantly.</p>
+            </div>
+            <div class="app-card">
+                <h3>📄 Stampede PDF</h3>
+                <p>A powerful PDF utility app for annotating, stamping, and managing your documents.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support -->
+    <section class="support">
+        <h2>Need Help?</h2>
+        <p>If you need assistance with any of our apps, feel free to contact us:</p>
+        <a href="mailto:Huzickapatrik@gmail.com">Huzickapatrik@gmail.com</a>
+    </section>
+
+    <!-- Privacy Policy -->
+    <section class="privacy">
+        <a href="privacy.html">Privacy Policy</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Krte-ch</p>
+    </footer>
+</body>
+</html>
