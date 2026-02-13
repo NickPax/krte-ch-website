@@ -199,7 +199,7 @@
         <div class="app-list">
             <div class="app-card">
                 <h3>💱 fx europe</h3>
-                <p>A simple and fast currency converter for European currencies. Check exchange rates instantly.</p>
+                <p>An elegant, fast currency converter for European currencies. Check exchange rates instantly.</p>
             </div>
             <div class="app-card">
                 <h3>📄 Stampede PDF</h3>
@@ -212,7 +212,7 @@
     <section class="support">
         <h2>Need Help?</h2>
         <p>If you need assistance with any of our apps, feel free to contact us:</p>
-        <a href="mailto:Huzickapatrik@gmail.com">Huzickapatrik@gmail.com</a>
+        <a id="support-email" href="#">Loading...</a>
     </section>
 
     <!-- Privacy Policy -->
@@ -224,5 +224,15 @@
     <footer>
         <p>© 2026 Krte-ch</p>
     </footer>
+
+    <script>
+    (function() {
+        var u = 'hello';
+        var d = 'krte-ch.com';
+        var e = u + '@' + d;
+        var el = document.getElementById('support-email');
+        if (el) { el.href = 'mail' + 'to:' + e; el.textContent = e; }
+    })();
+    </script>
 </body>
 </html>
